@@ -1,0 +1,12 @@
+import numpy as np
+arr1=np.array([1,2,3,4])
+arr1<3
+het=np.random.randint(10,60,size=(10,3))
+het+=100
+het
+
+hee=np.random.randint(10,60,5)  #不设计size 默认是1行
+hee
+hee[0]  #单个索引
+hee[[0,2,3]]   #多个索引
+hee[2:4:2]   #开始，终止，步长  左开右闭
